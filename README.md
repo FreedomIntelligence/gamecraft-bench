@@ -228,3 +228,13 @@ If you find GameCraft-Bench useful, please cite us:
 ## License
 
 Apache-2.0.
+
+## Star History
+
+<a href="https://www.star-history.com/?type=date&repos=tongxuluo%2Fgamecraft-bench">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&legend=top-left" />
+ </picture>
+</a>
