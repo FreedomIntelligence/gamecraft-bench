@@ -208,9 +208,9 @@ The verifier scores visual gameplay evidence; audio-dependent aspects are repres
 The benchmark measures whether an agent follows the game specification and realizes the requested mechanics, content, visual state, and presentation in an executable artifact.
 It does not attempt to measure whether a generated game is subjectively fun.
 
-## Token accounting
+## Token usage
 
-For model runs with reliable usage logs, we report aggregate token usage rather than dollar cost because provider pricing, routing endpoints, cache policies, and enterprise agreements vary. Users can combine these counts with their own provider pricing to estimate monetary cost.
+For the model runs listed below, we report token usage rather than dollar cost because provider pricing, routing endpoints, cache policies, and enterprise agreements vary. Users can combine these counts with their own provider pricing to estimate monetary cost.
 
 | Model | Tasks | Input tokens total | Cache tokens total | Output tokens total | Avg input / task | Avg output / task |
 |---|---:|---:|---:|---:|---:|---:|
