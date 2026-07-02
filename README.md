@@ -58,6 +58,17 @@ Scores are percentages. Mechanics, Depth, Visuals, and Art correspond to the
 four rubric categories: Core Mechanics, Content Depth, Functional Visuals, and
 Art and Presentation.
 
+## Token usage
+
+For the model runs listed below, we report token usage rather than dollar cost because provider pricing, routing endpoints, cache policies, and enterprise agreements vary. Users can combine these counts with their own provider pricing to estimate monetary cost.
+
+| Model | Tasks | Input tokens total | Cache tokens total | Output tokens total | Avg input / task | Avg output / task |
+|---|---:|---:|---:|---:|---:|---:|
+| Kimi-K2.6 | 140 | 2.24B | 2.22B | 10.9M | 16.0M | 77.7K |
+| Claude Opus-4.7 | 140 | 1.58B | 1.50B | 9.4M | 11.3M | 67.0K |
+| DeepSeek-V4-Pro | 140 | 232.6M | 58.0M | 7.8M | 1.7M | 55.4K |
+| GPT-5.5 (Codex) | 140 | 148.5M | 130.3M | 2.8M | 1.1M | 20.0K |
+
 ## Evaluation protocol
 
 Each task provides a natural-language game specification, a Godot-based workspace, shared resources, and a hidden rubric.
@@ -207,17 +218,6 @@ The verifier scores visual gameplay evidence; audio-dependent aspects are repres
 
 The benchmark measures whether an agent follows the game specification and realizes the requested mechanics, content, visual state, and presentation in an executable artifact.
 It does not attempt to measure whether a generated game is subjectively fun.
-
-## Token usage
-
-For the model runs listed below, we report token usage rather than dollar cost because provider pricing, routing endpoints, cache policies, and enterprise agreements vary. Users can combine these counts with their own provider pricing to estimate monetary cost.
-
-| Model | Tasks | Input tokens total | Cache tokens total | Output tokens total | Avg input / task | Avg output / task |
-|---|---:|---:|---:|---:|---:|---:|
-| Kimi-K2.6 | 140 | 2.24B | 2.22B | 10.9M | 16.0M | 77.7K |
-| Claude Opus-4.7 | 140 | 1.58B | 1.50B | 9.4M | 11.3M | 67.0K |
-| DeepSeek-V4-Pro | 140 | 232.6M | 58.0M | 7.8M | 1.7M | 55.4K |
-| GPT-5.5 (Codex) | 140 | 148.5M | 130.3M | 2.8M | 1.1M | 20.0K |
 
 ## Acknowledgment
 
