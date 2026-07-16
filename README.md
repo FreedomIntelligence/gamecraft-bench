@@ -42,11 +42,12 @@ The task suite covers diverse 2D game-generation demands, including continuous c
 ## Main results
 
 Frontier coding agents remain far from reliable end-to-end game generation.
-The strongest evaluated configuration reaches only **41.46%** overall, and most agents score below 40%.
+The strongest evaluated configuration reaches **50.70%** overall, and most agents score below 40%.
 
 | Harness | Model | Overall | Mechanics | Depth | Visuals | Art |
 |---|---|---:|---:|---:|---:|---:|
-| Claude Code | Opus-4.7 high | **41.46** | **55.34** | **39.48** | **42.78** | **36.86** |
+| SeeleAgent | Seele02-pro | **50.70** | **68.42** | **48.76** | **52.74** | **44.17** |
+| Claude Code | Opus-4.7 high | 41.46 | 55.34 | 39.48 | 42.78 | 36.86 |
 | Codex | GPT-5.5 high | 39.49 | 54.36 | 38.61 | 41.84 | 32.94 |
 | Kimi Code | Kimi-K2.6 | 30.65 | 39.76 | 28.07 | 33.66 | 27.99 |
 | Claude Code | MiMo-V2.5-Pro | 24.10 | 32.33 | 22.59 | 27.45 | 20.65 |
