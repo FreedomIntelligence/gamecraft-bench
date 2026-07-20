@@ -42,19 +42,20 @@ The task suite covers diverse 2D game-generation demands, including continuous c
 ## Main results
 
 Frontier coding agents remain far from reliable end-to-end game generation.
-The strongest evaluated configuration reaches **60.50%** overall.
+The strongest evaluated configuration reaches **65.70%** overall.
 
-| Harness | Model | Overall | Mechanics | Depth | Visuals | Art |
-|---|---|---:|---:|---:|---:|---:|
-| Codex | GPT-5.6-sol high | **60.50** | **74.50** | **56.10** | **64.80** | **57.00** |
-| SeeleAgent | Seele02-pro | 50.70 | 68.42 | 48.76 | 52.74 | 44.17 |
-| Claude Code | Opus-4.7 high | 41.46 | 55.34 | 39.48 | 42.78 | 36.86 |
-| Codex | GPT-5.5 high | 39.49 | 54.36 | 38.61 | 41.84 | 32.94 |
-| Kimi Code | Kimi-K2.6 | 30.65 | 39.76 | 28.07 | 33.66 | 27.99 |
-| Claude Code | MiMo-V2.5-Pro | 24.10 | 32.33 | 22.59 | 27.45 | 20.65 |
-| Code Buddy | GLM-5.1 | 18.29 | 25.23 | 17.80 | 21.14 | 14.59 |
-| Code Buddy | MiniMax-M2.7 | 10.95 | 14.27 | 9.92 | 14.92 | 8.85 |
-| Codex | DeepSeek-V4-Pro | 2.15 | 2.25 | 1.69 | 1.97 | 2.63 |
+| Harness | Model | Date | Overall | Mechanics | Depth | Visuals | Art |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Claude Code | Fable 5 high | 2026-07-20 | **65.70** | **77.00** | **59.00** | **67.00** | **68.00** |
+| Codex | GPT-5.6-sol high | 2026-07-17 | 60.50 | 74.50 | 56.10 | 64.80 | 57.00 |
+| SeeleAgent | Seele02-pro | 2026-07-15 | 50.70 | 68.42 | 48.76 | 52.74 | 44.17 |
+| Claude Code | Opus-4.7 high | 2026-06-16 | 41.46 | 55.34 | 39.48 | 42.78 | 36.86 |
+| Codex | GPT-5.5 high | 2026-06-16 | 39.49 | 54.36 | 38.61 | 41.84 | 32.94 |
+| Kimi Code | Kimi-K2.6 | 2026-06-16 | 30.65 | 39.76 | 28.07 | 33.66 | 27.99 |
+| Claude Code | MiMo-V2.5-Pro | 2026-06-16 | 24.10 | 32.33 | 22.59 | 27.45 | 20.65 |
+| Code Buddy | GLM-5.1 | 2026-06-16 | 18.29 | 25.23 | 17.80 | 21.14 | 14.59 |
+| Code Buddy | MiniMax-M2.7 | 2026-06-16 | 10.95 | 14.27 | 9.92 | 14.92 | 8.85 |
+| Codex | DeepSeek-V4-Pro | 2026-06-16 | 2.15 | 2.25 | 1.69 | 1.97 | 2.63 |
 
 Scores are percentages. Mechanics, Depth, Visuals, and Art correspond to the
 four rubric categories: Core Mechanics, Content Depth, Functional Visuals, and
