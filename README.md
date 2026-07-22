@@ -246,10 +246,10 @@ Apache-2.0.
 
 ## Star History
 
-<a href="https://www.star-history.com/?type=date&repos=tongxuluo%2Fgamecraft-bench">
+<a href="https://www.star-history.com/?repos=tongxuluo%2Fgamecraft-bench&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&theme=dark&legend=top-left&sealed_token=Oj5XJUlneIlTwdMGGkUVI6CWeXfPgPas68WSAdFeSALo_KppZ7Fb-eJUrhnRnNvmVFdZDX-t4Z3hVwBfa7_O5Psv85JMT1eFEOw6VxKAKcdZGibitlJBMw" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&legend=top-left&sealed_token=Oj5XJUlneIlTwdMGGkUVI6CWeXfPgPas68WSAdFeSALo_KppZ7Fb-eJUrhnRnNvmVFdZDX-t4Z3hVwBfa7_O5Psv85JMT1eFEOw6VxKAKcdZGibitlJBMw" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=tongxuluo/gamecraft-bench&type=date&legend=top-left&sealed_token=Oj5XJUlneIlTwdMGGkUVI6CWeXfPgPas68WSAdFeSALo_KppZ7Fb-eJUrhnRnNvmVFdZDX-t4Z3hVwBfa7_O5Psv85JMT1eFEOw6VxKAKcdZGibitlJBMw" />
  </picture>
 </a>
