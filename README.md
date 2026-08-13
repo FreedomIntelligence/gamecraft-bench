@@ -21,6 +21,35 @@ The benchmark runs on top of [Harbor](https://github.com/harbor-framework/harbor
 
 ---
 
+## Quick start with the GameCraft skill
+
+**One command, any agent.** This repository includes the
+[`gamecraft-create`](skills/SKILL.md) skill for building, repairing, visually
+inspecting, and validating complete Godot 4 games for GameCraft-Bench. The
+[`skills`](https://www.npmjs.com/package/skills) CLI detects the coding agent
+you already use and installs the skill into the appropriate project directory:
+
+```bash
+npx skills add FreedomIntelligence/gamecraft-bench --skill gamecraft-create
+```
+
+Add `--list` to preview the available skill first, `-g` to install it globally,
+or `-a <agent>` to target a specific tool, such as `-a codex`,
+`-a claude-code`, or `-a cursor`:
+
+```bash
+npx skills add FreedomIntelligence/gamecraft-bench --list
+npx skills add FreedomIntelligence/gamecraft-bench --skill gamecraft-create -a codex -g
+```
+
+After installation, ask your agent to use `gamecraft-create` when implementing
+a benchmark task or preflighting an existing `/workspace/game` submission. The
+skill's references and validation utilities are kept together under
+[`skills/`](skills/), so they can also be copied manually into an agent's skill
+directory when CLI installation is unavailable.
+
+---
+
 ## Benchmark overview
 
 GameCraft-Bench is organized around three desiderata for end-to-end game generation:
